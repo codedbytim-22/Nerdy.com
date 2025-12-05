@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact Us | Nerdy.com</title>
+
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
+        rel="stylesheet" />
+    <link rel="stylesheet" href="../Assets/CSS/contact.css" />
+</head>
+
+<body>
+    <!-- Navbar -->
+    <header class="navbar">
+        <div class="logo">Nerdy<span>.com</span></div>
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="aboutus.html">About</a>
+            <a href="categories.html">Categories</a>
+            <a href="contact.html" class="active">Contact</a>
+        </nav>
+    </header>
+
+    <!-- Contact Hero -->
+    <section class="contact-hero">
+        <h1>Contact Us</h1>
+        <p>Have a question, suggestion, or idea? We’d love to hear from you.</p>
+    </section>
+
+    <!-- Contact Form Section -->
+    <section class="contact-section">
+        <div class="form-container">
+
+            <h2>Send Us a Message</h2>
+            <p class="form-desc">Fill out the form below and we’ll get back to you as soon as possible.</p>
+
+            <form action="https://formspree.io/f/xovglyvp" method="POST">
+                <div class="input-group">
+                    <label for="name">Full Name</label>
+                    <input type="text" name="name" id="name" placeholder="Enter your name" required />
+                </div>
+
+                <div class="input-group">
+                    <label for="email">Email Address</label>
+                    <input type="email" name="email" id="email" placeholder="Enter your email" required />
+                </div>
+
+                <div class="input-group">
+                    <label for="message">Your Message</label>
+                    <textarea name="message" id="message" rows="6" placeholder="Write your message..."
+                        required></textarea>
+                </div>
+
+                <button type="submit" class="submit-btn">Send Message</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <p>© 2025 Nerdy.com — Expand Your Mind.</p>
+    </footer>
+</body>
+
+</html>

@@ -230,7 +230,7 @@ img {
     justify-content: center;
     width: 100%;
     /* makes image responsive */
-    max-width: 400px;
+    max-width: 200px;
     /* caps the width to 400px */
     height: auto;
     /* keeps aspect ratio */

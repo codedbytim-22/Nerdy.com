@@ -1,0 +1,123 @@
+/* GENERAL STYLING */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+body {
+    background: #f8f9fc;
+    color: #333;
+    line-height: 1.8;
+}
+
+/* NAVBAR */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 7%;
+    background: #fff;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.08);
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+
+.logo {
+    font-size: 1.8rem;
+    font-weight: 700;
+    color: #222;
+}
+
+.logo span {
+    color: #4e74ff;
+}
+
+.navbar nav a {
+    text-decoration: none;
+    margin-left: 25px;
+    font-size: 1rem;
+    color: #333;
+    transition: 0.3s ease;
+}
+
+.navbar nav a:hover,
+.navbar nav a.active {
+    color: #4e74ff;
+}
+
+/* HERO SECTION */
+.about-hero {
+    text-align: center;
+    padding: 80px 10%;
+    background: linear-gradient(135deg, #4e74ff, #7ea2ff);
+    color: #fff;
+}
+
+.about-hero h1 {
+    font-size: 3rem;
+    margin-bottom: 10px;
+    font-weight: 700;
+}
+
+.about-hero p {
+    font-size: 1.2rem;
+    opacity: 0.9;
+}
+
+/* ABOUT CONTENT */
+.about-content {
+    max-width: 900px;
+    margin: 60px auto;
+    padding: 0 20px;
+}
+
+.about-content h2 {
+    margin-top: 40px;
+    font-size: 1.8rem;
+    color: #4e74ff;
+}
+
+.about-content p {
+    margin-top: 10px;
+    font-size: 1.05rem;
+    color: #444;
+}
+
+.about-list {
+    list-style: none;
+    padding-left: 15px;
+    margin-top: 15px;
+}
+
+.about-list li {
+    margin-bottom: 10px;
+    font-size: 1.05rem;
+}
+
+/* FOOTER */
+.footer {
+    margin-top: 70px;
+    background: #111;
+    color: #ddd;
+    text-align: center;
+    padding: 20px 0;
+    font-size: 0.95rem;
+}
+
+/* RESPONSIVE */
+@media (max-width: 768px) {
+    .navbar nav a {
+        margin-left: 15px;
+    }
+
+    .about-hero h1 {
+        font-size: 2.3rem;
+    }
+
+    .about-content h2 {
+        font-size: 1.6rem;
+    }
+}
